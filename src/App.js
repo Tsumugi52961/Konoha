@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/subs">
+        <Route path="/subscriptions">
           <Subscriptions />
         </Route>
       </Switch>

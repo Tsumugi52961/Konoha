@@ -1,7 +1,7 @@
 import axios from '@/libs/axios'
 
 export const getSubscriptions = () => {
-  axios.request({
+  return axios.request({
     url: '/api/subscriptions',
     method: 'get'
   })

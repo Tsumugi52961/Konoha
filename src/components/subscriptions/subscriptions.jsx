@@ -4,7 +4,6 @@ import { getSubscriptions } from '@/api/subscriptions'
 export default class Subscriptions extends Component {
   constructor (props) {
     super(props)
-    console.log(props)
     this.state = {
       subscriptions: []
     }
@@ -12,7 +11,6 @@ export default class Subscriptions extends Component {
 
   componentDidMount () {
     getSubscriptions().then(res => {
-      console.log(res)
       this.setState({
         subscriptions: res.data
       })

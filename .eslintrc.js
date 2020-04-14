@@ -23,5 +23,9 @@ module.exports = {
     'react'
   ],
   rules: {
+    "object-curly-spacing": ["warn", "always", {
+      arraysInObjects: false,
+      objectsInObjects: false
+    }]
   }
-}
+};

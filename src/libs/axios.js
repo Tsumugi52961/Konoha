@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { stringify } from 'qs'
 
-const baseUrl = process.env.host
+const baseUrl = process.env.REACT_APP_REMOTE_HOST
 
 class HttpRequest {
   constructor (baseUrl) {

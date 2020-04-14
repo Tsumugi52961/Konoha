@@ -20,7 +20,7 @@ export default function Home () {
           Learn React
         </a>
         <Link to="/home"><a className="App-link">Home</a></Link>
-        <Link to="/subs" className="App-link">Subscriptions</Link>
+        <Link to="/subscriptions" className="App-link">Subscriptions</Link>
       </header>
     </div>
   )
