@@ -1,9 +1,9 @@
-import React from "react";
-import logo from "../../logo.svg";
-import { Link } from "react-router-dom";
-import './home.css';
+import React from 'react'
+import logo from '../../logo.svg'
+import { Link } from 'react-router-dom'
+import './home.css'
 
-export default function Home() {
+export default function Home () {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,5 +23,5 @@ export default function Home() {
         <Link to="/subs" className="App-link">Subscriptions</Link>
       </header>
     </div>
-  );
+  )
 }

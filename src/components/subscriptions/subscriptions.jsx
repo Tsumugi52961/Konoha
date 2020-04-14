@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { getSubscriptions } from "src/api/subscriptions";
+import React, { Component } from 'react'
+import { getSubscriptions } from '@/api/subscriptions'
 
 export default class Subscriptions extends Component {
-  constructor(props) {
-    super(props);
-    console.log(props);
+  constructor (props) {
+    super(props)
+    console.log(props)
     this.state = {
       subscriptions: []
     }
@@ -12,7 +12,7 @@ export default class Subscriptions extends Component {
 
   componentDidMount () {
     getSubscriptions().then(res => {
-      console.log(res);
+      console.log(res)
       this.setState({
         subscriptions: res.data
       })
@@ -24,7 +24,7 @@ export default class Subscriptions extends Component {
       <div className="subscription" key={ subscription.id }>
         { subscription.name }
       </div>
-    );
+    )
     return (
       <div className="subscriptions">
         { subscriptions }

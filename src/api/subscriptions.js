@@ -1,8 +1,8 @@
-import axios from 'src/libs/axios'
+import axios from '@/libs/axios'
 
 export const getSubscriptions = () => {
   axios.request({
     url: '/api/subscriptions',
     method: 'get'
   })
-};
+}
