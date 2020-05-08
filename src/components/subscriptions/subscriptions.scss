@@ -1,0 +1,52 @@
+.subscriptions {
+  display: flex;
+  flex-wrap: wrap;
+
+  .subscription-container {
+    flex: 0 0 16.6%;
+    position: relative;
+    border: 4px solid #cfcfcf;
+
+    > a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .subscription-cover {
+      height: 240px;
+
+      &.no-image, &.add {
+        background-color: #dbf7ff;
+      }
+
+      .img {
+        background-color: #66ccff;
+      }
+
+      .cover-center {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+        font-size: 96px;
+        color: #aaa;
+
+        > a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+
+      .plus-icon {
+        color: -webkit-link;
+      }
+    }
+
+    .subscription-name {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+    }
+  }
+}

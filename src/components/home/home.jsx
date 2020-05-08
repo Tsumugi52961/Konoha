@@ -21,6 +21,7 @@ export default function Home () {
         </a>
         <Link to="/home"><a className="App-link">Home</a></Link>
         <Link to="/subscriptions" className="App-link">Subscriptions</Link>
+        <Link to="/bangumis" className="App-link">Bangumis</Link>
       </header>
     </div>
   )

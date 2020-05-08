@@ -26,6 +26,7 @@ module.exports = {
     "object-curly-spacing": ["warn", "always", {
       arraysInObjects: false,
       objectsInObjects: false
-    }]
+    }],
+    "react/prop-types": 0
   }
 };
